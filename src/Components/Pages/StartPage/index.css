@@ -1,0 +1,77 @@
+.startPage-container{
+    height: 100vh;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-container{
+    height: 70%;
+    width: 80%;
+    /* background-color: red; */
+    display: flex;
+}
+.box-1{
+    height: 100%;
+    width: 50%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.dicePic-css{
+    height: 60%;
+    width: 60%;
+    object-fit: fill;
+}
+.box-2{
+    height: 100%;
+    width: 50%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box-2-p{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+p{
+    color: #000;
+    font-weight: 800;
+    font-size: 60px;
+    margin-block-start: 0%;
+    margin-block-end: 0%;
+}
+.box-2-b{
+    width: 55%;
+    /* background-color:red; */
+    display: flex;
+   justify-content: flex-end;
+}
+.box-2-button{
+    height: 30px;
+    width: 150px;
+    background-color: #000;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 600;
+    font-size: 13px;
+    transition: .6s background ease-in;
+}
+.box-2-button:hover{
+    background-color: #fff;
+    color:#000;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 13px;
+    border: #000 solid 1px;
+    transition: .4s background ease-in;
+}
+

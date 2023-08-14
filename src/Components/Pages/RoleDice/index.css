@@ -1,0 +1,74 @@
+.rd-main{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.rd-box1{
+    height: 180px;
+    width: 180px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.rd-text{
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+}
+.rd-image-css{
+    height: 80%;
+    width: 100%;
+    object-fit: contain;
+}
+.reset-button{
+    height: 33px;
+    width: 150px;
+    border: #000 solid 1px;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 9px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: .3s background ease-in;
+}
+.reset-button:hover{
+    background-color: #000;
+    color:#fff;
+    transition: .6s background ease-in;
+}
+.rules-button{
+    height: 35px;
+    width: 150px;
+    /* border: #000 solid 1px; */
+    border-radius: 5px;
+    background-color: #000000;
+    color: white;
+    font-size: 9px;
+    font-weight: 500;
+    cursor: pointer;  
+    margin-top: 10px;
+}
+.show-rules{
+    height: 120px;
+    width: 30%;
+    background-color: #FBF1F1;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   padding-left: 10px;
+   margin-top: 50px;
+}
+.sr-text{
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 15px;
+}
+.h-4{
+    font-size: 12px;
+    font-size: 600;
+    margin-bottom: 5px;
+}
